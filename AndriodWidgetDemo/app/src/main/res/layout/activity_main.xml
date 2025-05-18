@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    >
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Widget"
+            />
+        </TableRow>
+
+        <TableRow>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your name"
+            />
+        </TableRow>
+
+        <TableRow>
+          <LinearLayout>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student"
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teacher"
+                />
+          </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+            >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                />
+            </RadioGroup>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+            />
+        </TableRow>
+
+        <TableRow>
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            />
+        </TableRow>
+
+        <TableRow>
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            />
+        </TableRow>
+
+        <TableRow
+            >
+            <TimePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
