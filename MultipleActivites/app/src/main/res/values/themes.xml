@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.OnFocusDemo" parent="Theme.Material3.DayNight">
+    <style name="Base.Theme.MultipleActivites" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.OnFocusDemo" parent="Base.Theme.OnFocusDemo" />
+    <style name="Theme.MultipleActivites" parent="Base.Theme.MultipleActivites" />
 </resources>
