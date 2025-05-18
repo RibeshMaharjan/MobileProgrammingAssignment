@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+    />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Email"
+        android:layout_toEndOf="@+id/tv1"
+        android:layout_alignBaseline="@id/tv1"
+        android:layout_marginStart="10dp"
+    />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:layout_below="@id/tv1"
+        android:textSize="20sp"
+        android:layout_alignStart="@id/tv1"
+        android:layout_marginTop="10dp"
+    />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Password"
+        android:layout_toEndOf="@+id/tv2"
+        android:layout_alignBaseline="@id/tv2"
+        android:layout_marginStart="10dp"
+    />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/tv2"
+        android:layout_marginTop="10dp"
+        android:layout_alignStart="@id/tv1"
+    />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_toEndOf="@id/b1"
+        android:layout_alignBaseline="@id/b1"
+        android:layout_marginStart="10dp"
+    />
+
+</RelativeLayout>
