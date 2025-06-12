@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">StringResources</string>
+    <string name="t1">This is my first string. Thank you!!!</string>
+</resources>

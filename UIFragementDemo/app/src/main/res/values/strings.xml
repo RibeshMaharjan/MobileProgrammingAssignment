@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UIFragementDemo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvone" >Hello this is fragment 1</string>
+    <string name="tvtwo" >Hello this is fragment 2</string>
+</resources>

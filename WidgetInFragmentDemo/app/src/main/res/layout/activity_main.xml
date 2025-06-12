@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dynamic Layout"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+    >
+        <Button
+            android:id="@+id/idred"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red Fragment"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/idgreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green Fragment"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+    >
+        <TextView
+            android:id="@+id/placeholder_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Dynamic Layout"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:layout_gravity="center" />
+    </FrameLayout>
+</LinearLayout>
